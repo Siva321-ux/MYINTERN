@@ -1,0 +1,104 @@
+{
+  "users": [
+    {
+      "_id": "eb5d43f6e168d436a365781c",
+      "name": "Alex Rivera",
+      "email": "student@example.com",
+      "passwordHash": "$2a$10$81KzMqTKlKY2wdbB/IgEqujXIasmMMImyw6kNGhxRbDNbfAYOXNQm",
+      "createdAt": "2026-01-10T10:00:00.000Z",
+      "updatedAt": "2026-01-10T10:00:00.000Z"
+    }
+  ],
+  "applications": [
+    {
+      "_id": "11b409e2f72a107573631656",
+      "userId": "eb5d43f6e168d436a365781c",
+      "companyName": "Google",
+      "role": "Software Engineering Intern (Summer 2026)",
+      "applicationDate": "2026-01-15T09:00:00.000Z",
+      "stage": "Interview",
+      "notes": "Passed initial resume screen. Technical interview scheduled for next week.",
+      "followUpDate": "2026-09-25T12:45:53.534Z",
+      "createdAt": "2026-01-15T09:00:00.000Z",
+      "updatedAt": "2026-01-20T14:30:00.000Z"
+    },
+    {
+      "_id": "7c8e0279b35fa7a0842c0694",
+      "userId": "eb5d43f6e168d436a365781c",
+      "companyName": "Stripe",
+      "role": "Frontend Engineering Intern",
+      "applicationDate": "2026-01-18T11:00:00.000Z",
+      "stage": "Offer",
+      "notes": "Received official offer letter! Reviewing compensation package.",
+      "followUpDate": null,
+      "createdAt": "2026-01-18T11:00:00.000Z",
+      "updatedAt": "2026-02-01T16:00:00.000Z"
+    },
+    {
+      "_id": "c61dde8a1c8eee51410b0985",
+      "userId": "eb5d43f6e168d436a365781c",
+      "companyName": "Microsoft",
+      "role": "Product Management Intern",
+      "applicationDate": "2026-01-22T14:00:00.000Z",
+      "stage": "Applied",
+      "notes": "Submitted application through career portal.",
+      "followUpDate": "2026-09-22T12:45:53.534Z",
+      "createdAt": "2026-01-22T14:00:00.000Z",
+      "updatedAt": "2026-01-22T14:00:00.000Z"
+    },
+    {
+      "_id": "389c44780795ddd4e5fe8ac8",
+      "userId": "eb5d43f6e168d436a365781c",
+      "companyName": "Meta",
+      "role": "Data Science Intern",
+      "applicationDate": "2026-01-05T08:30:00.000Z",
+      "stage": "Rejected",
+      "notes": "Position closed for the summer cycle.",
+      "followUpDate": null,
+      "createdAt": "2026-01-05T08:30:00.000Z",
+      "updatedAt": "2026-01-28T10:00:00.000Z"
+    }
+  ],
+  "activities": [
+    {
+      "_id": "ff32a60be9ac4cd0111483dc",
+      "applicationId": "11b409e2f72a107573631656",
+      "userId": "eb5d43f6e168d436a365781c",
+      "type": "CREATED",
+      "content": "Application logged for Software Engineering Intern (Summer 2026) at Google",
+      "previousStage": null,
+      "newStage": null,
+      "createdAt": "2026-01-15T09:00:00.000Z"
+    },
+    {
+      "_id": "48c46dc45986e8b8ffb55fde",
+      "applicationId": "11b409e2f72a107573631656",
+      "userId": "eb5d43f6e168d436a365781c",
+      "type": "STAGE_CHANGED",
+      "content": "Stage changed from Applied to Interview",
+      "previousStage": "Applied",
+      "newStage": "Interview",
+      "createdAt": "2026-01-20T14:30:00.000Z"
+    },
+    {
+      "_id": "8a6e2f45a024d7d79fed38ff",
+      "applicationId": "7c8e0279b35fa7a0842c0694",
+      "userId": "eb5d43f6e168d436a365781c",
+      "type": "CREATED",
+      "content": "Application logged for Frontend Engineering Intern at Stripe",
+      "previousStage": null,
+      "newStage": null,
+      "createdAt": "2026-01-18T11:00:00.000Z"
+    },
+    {
+      "_id": "21f55d37318220008846257b",
+      "applicationId": "7c8e0279b35fa7a0842c0694",
+      "userId": "eb5d43f6e168d436a365781c",
+      "type": "STAGE_CHANGED",
+      "content": "Stage changed from Interview to Offer",
+      "previousStage": "Interview",
+      "newStage": "Offer",
+      "createdAt": "2026-02-01T16:00:00.000Z"
+    }
+  ]
+}
